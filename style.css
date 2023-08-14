@@ -1,0 +1,522 @@
+/*@font-face {
+    font-family: Sahel;
+    src: url('Sahel.eot');
+    src: url('Sahel.eot?#iefix') format('Sahel-opentype'),
+    url('Sahel.woff') format('woff'),
+    url('Sahel.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    } */
+@font-face {
+    font-family: A Iranian Sans;
+    src: url('Iranian Sans.eot');
+    src: url('Iranian Sans.eot?#iefix') format('Iranian Sans-opentype'),
+    url('Iranian Sans.woff') format('woff'),
+    url('Iranian Sans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    } 
+
+    @font-face {
+        font-family: Yekan;
+        src: url('yekan-font/yekan-regular.eot');
+        src: url('yekan-font/Yekan.eot') format('yekan-opentype'),
+        url('yekan-font/yekan-regular.woff') format('woff'),
+        url('yekan-font/yekan-regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        }
+
+        @font-face {
+            font-family: Vazir FD;
+            src: url('Farsi-Digits/Vazir-Bold-FD.ttf');
+            src: url('Farsi-Digits/Vazir-FD.eot') format('Vazir-FD-opentype'),
+            url('Farsi-Digits/Vazir-Bold-FD.woff') format('woff'),
+            url('Farsi-Digits/Vazir-FD.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            } 
+
+    @font-face {
+    font-family: Automatica (BRK) ;
+    src: url('automati.eot');
+    src: url('automati.eot?#iefix') format('auto-opentype'),
+    url('automati.woff') format('woff'),
+    url('automati.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    } 
+
+body {
+    font-family: "A Iranian Sans"!important;
+    font-size: 15px;
+    color:white;
+   /* text-shadow: 3px -1px 5px #ecdcb4; */
+    width: 1080px;
+    margin: 0 auto;
+} 
+.container{
+    width: 1080px;
+   /* height: 100%; */
+   /* margin: 0 auto; */
+    background-color:#000000;
+    overflow: hidden;
+    box-shadow: 18px 9px 117px 11px #000000
+}
+.containerBurger{
+    display: none;
+   
+}
+.containerDessert{
+    display: none;
+    
+}
+.containerDrink{
+    display: none;
+    
+}
+
+header{
+    width: 1080px;
+    height: 200px; 
+    position: relative;
+    background-color: #000000;
+}
+#header img{
+    position: relative;
+    width: 123px !important;
+    height: 79px !important;
+    margin-left: 468px !important;
+    margin-top: 65px !important;
+}
+.wsc{
+width: 937px;
+}
+.price{
+    position: absolute;
+    top: 102px;
+    right: 73px;
+    font-size: 16px;
+}
+
+.price1{
+    position: relative;
+    direction: rtl;
+    top: -31px;
+    right: 76px;
+    font-size: 20px;
+}
+.box1{
+background-color: #191516;
+height: 50px;
+border: 1px groove #000000;
+margin: 22px 67px;
+line-height: 50px;
+font-size: 17px;
+border-radius: 0px 40px 0px 40px ;
+text-align: center;
+font-family: 'A Iranian Sans'!important;
+box-shadow: 5px 5px 10px 2px #000000;
+position: relative;
+box-shadow: -3px 3px 12px -1px red;
+}
+.box1:hover{
+    cursor: pointer;
+    color: red;
+    border: 1px groove red;
+    /*color: #edbb46;*/
+   /* border: 1px groove #e8b745;*/
+}
+.box1 .icon{
+position:absolute;
+right: 15px;
+top: 16px;
+background-color:#000000;
+border-radius: 14px 14px;
+}
+
+#design img{
+/*height: 470px; */
+margin: 30px 71px;
+border-radius: 5px;
+box-shadow: 3px 7px 25px -6px #000000;
+
+}
+ul{
+list-style-type: none;
+}
+.social img{
+width: 30px;
+height: 30px;
+}
+.social #insta{
+width: 36px !important;
+height: 36px !important; 
+margin-left: -2px;
+margin-top: -7px;
+}
+.social{
+margin-left: 69px;
+margin-bottom: 20px;
+}
+.social h2{
+    font-size: 15px;
+    font-family: 'Automatica (BRK)' !important;
+}
+.social h2,p{
+margin-bottom: 13px;
+margin-top: 17px;
+}
+.separate{
+    width: 937px;
+    height: 14px;
+    border-bottom: 2px groove silver;
+    margin-top: -62px;
+}
+.google-map {
+padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map iframe {
+ height: 100%;
+ width: 100%;
+ left: 0;
+ top: -14px;
+ position: absolute;
+}
+.loc{
+    position: relative;
+    top: 1px;
+    font-family: 'A Iranian Sans'!important;
+    font-size: 13px;
+}
+
+/*.title{
+    margin-left: 65px;
+    display: inline-block;
+    vertical-align: -29px;
+    font-size: 35px;
+    margin-bottom: -6px;
+    text-shadow: 4px -1px 4px #000000;
+    margin-top: 22px;
+    
+}*/
+
+.box1 .h2b{
+    font-size: 23px;
+    font-family: 'A Iranian Sans';
+    font-weight: 100;
+}
+iframe{
+    box-shadow: 3px 7px 25px -6px #000000;
+    margin-top: 16px;
+    border-radius: 10px;
+}
+#header .gif {
+    position: absolute;
+    right: 1px;
+    top: -65px;
+    width: 66px !important;
+    height: 66px !important;
+    background-color: #000000 !important;
+    border-radius: 75px;
+    border: 2px groove #fff;
+
+}
+.burger{
+    position: relative;
+    background-color: #191516;
+    margin: 0 auto;
+    border-radius: 12px;
+    margin-top: 7px;
+}
+.burger:hover{
+   /* border: 1px groove #e8b745;*/
+   border: 1px groove red;
+}
+
+.burger img{
+    position: relative;
+    right: -49px;
+    width: 140px;
+    height: 100px;
+    top: -4px;
+}
+
+.clear{
+    clear: both;
+}
+.burger h3{
+    position: relative;
+    direction: rtl;
+    top: 29px;
+    right: 47px;
+    font-size: 30px;
+    color: #e8b745;
+}
+.burger p{
+    position: relative;
+    direction: rtl;
+    right: 69px;
+    top: -70px;
+    font-weight: lighter;
+    font-size: 12px;
+}
+.containerDrink img{
+    position: relative;
+    right: -50px;
+    width: 113px;
+    height: 110px;
+    top: -11px;
+}
+.inline{
+    display: inline-block;
+}
+.ins{
+    position: relative;
+    right: -36px;
+    top: -28px;
+}
+.ins a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'verdana';
+    font-size: 14px;
+}
+.wst{
+    position: relative;
+    right: -34px;
+    top: -25px;
+}
+.wst a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'A Iranian Sans';
+    font-size: 14px;
+}
+.soc{
+    margin-bottom: -14px;
+}
+.tel{
+    position: relative;
+    top: -53px;
+    left: 35px;
+    font-size: 14px;
+}
+.tel1{
+    position: relative;
+    top: -68px;
+    left: 35px;
+    font-size: 14px;
+}
+.telimg{
+    position: relative;
+    top: -8px;
+    left: 1px;
+
+}
+@media only screen and (max-width:500px){
+    body{
+        width: 100%;       
+    }
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .container #header{
+        width: 100%;
+        position: relative;
+
+    }
+    .container #header #logo{
+        position: absolute;
+        left: -343px;
+        top: -8px;
+        margin: 0 auto;
+
+    }
+     #header .gif{
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        right: 1px;
+        top: -63px;
+    }
+    .box1{
+        width: 80%;
+        height: 47px;
+        margin: 0 auto;
+        margin-top: 8px;
+        margin-bottom: 15px;
+    }
+    .containerBurger{
+        position: relative;
+        margin-top: 25px;
+        margin: 0 auto;
+    }
+    .containerBurger .burger{
+        position: relative;
+        height: 127px;
+        overflow: hidden;
+
+    }
+
+    .containerBurger .burger img{
+        position: initial;
+        /*left: 233px;*/
+        width: 100px;
+        height: 80px
+    }
+    .containerBurger .burger h3{
+        position: absolute;
+        top: 14px;
+        right: 20px;
+        font-size: 22px;
+        font-weight: 100;
+    }
+
+    .containerBurger .burger p{
+        position: absolute;
+        top: 35px;
+        right: 6px;
+        font-size: x-small;
+        font-weight: 100;
+    }
+    .containerBurger .burger .price1{
+        position: absolute;
+        top: 93px;
+        right: 32px;
+        font-size: 15px;
+        font-weight: 100;
+    }
+
+    .containerDessert{
+        position: relative;
+        margin-top: 25px;
+        margin: 0 auto;
+    }
+    .containerDessert .burger{
+        position: relative;
+        height: 127px;
+        overflow: hidden;
+
+    }
+
+    .containerDessert .burger img{
+        position: initial;
+        /*left: 233px;*/
+        width: 100px;
+        height: 80px
+    }
+    .containerDessert .burger h3{
+        position: absolute;
+        top: 14px;
+        right: 20px;
+        font-size: 22px;
+        font-weight: 100;
+    }
+
+    .containerDessert .burger p{
+        position: absolute;
+        top: 35px;
+        right: 8px;
+        font-size: x-small;
+        font-weight: lighter;
+    }
+    .containerDessert .burger .price1{
+        position: absolute;
+        top: 93px;
+        right: 33px;
+        font-size: 15px;
+        font-weight: 100;
+    }
+    .containerDrink{
+        position: relative;
+        margin-top: 25px;
+        margin: 0 auto;
+    }
+    .containerDrink .burger{
+        position: relative;
+        height: 105px;
+        overflow: hidden;
+
+    }
+
+    .containerDrink .burger img{
+        position: initial;
+        /*left: 233px;*/
+        width: 100px;
+        height: 80px
+    }
+    .containerDrink .burger h3{
+        position: absolute;
+        top: 14px;
+        right: 20px;
+        font-size: 22px;
+        font-weight: 100
+    }
+
+    .containerDrink .burger .price{
+        position: absolute;
+        top: 75px;
+        left: 201px;
+        font-size: 14px;
+        font-weight: 100;
+    }
+   
+
+    .wsc{
+        width:80%;
+    }
+   
+    .containerDessert{
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    .containerDrink{
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    #design img{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    .social{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+   
+    
+    iframe{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    .separate{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: -61px;
+    }
+    .container #header img{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    .title{
+        width: 80%;
+        margin-left: 45px;
+        margin-top: 25px;
+    }
+    .google-map iframe {
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: -29px;
+        position: absolute;
+       }
+}
